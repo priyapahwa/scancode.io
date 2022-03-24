@@ -58,11 +58,8 @@ class ScanPackage(Pipeline):
         "--url",
     ] + [
         "--classify",
-        "--consolidate",
-        "--is-license-text",
         "--license-clarity-score",
-        "--summary",
-        "--summary-key-files",
+        "--summary2",
     ]
 
     def get_package_archive_input(self):
